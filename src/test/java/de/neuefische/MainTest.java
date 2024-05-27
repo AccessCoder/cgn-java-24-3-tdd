@@ -19,7 +19,7 @@ class MainTest {
     @Test
     void fizzbuzz_shouldReturnFizz_whenCalledWith6(){
         //GIVEN
-        String expected = "Fizz";
+        String expected = "Fizz!";
         //WHEN
         String actual = Main.playFizzBuzz(6);
         //THEN
